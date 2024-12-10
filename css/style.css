@@ -12,3 +12,69 @@ a {
 ul {
     list-style: none;
 }
+
+body {
+    font-family: "Fraunces";
+}
+
+
+/* SITE-HEADER */
+
+.site-header-hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center center;
+}
+
+.nav-link__item {
+    color: white;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px; /* 138.889% */
+   letter-spacing: -0.129px;
+}
+.nav-list {
+    column-gap: 30px;
+}
+
+.nav-link__btn {
+    background-color: white;
+    border-radius: 28px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 16px 32px;
+    color: #24303E;
+    font-family: "Fraunces 9pt Soft";
+    transition: .5s;
+    
+}
+.nav-link__btn:hover {
+    background-color: #78CEF5;
+    color: white;
+  
+}
+.nav-link__item:hover {
+    color: white !important;
+}
+.nav-link__item:active {
+    color: white !important;
+}
+.site-hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 95px;
+}
+.site-title {
+    margin-top: 105px;
+    color: white;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 56px;
+    font-weight: 900;
+    letter-spacing: 8.75px;
+}
