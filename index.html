@@ -12,7 +12,7 @@
    <!-- link media css file -->
     <link rel="stylesheet" href="./css/media.css">
 </head>
-<body>
+<body class="overflow-x-hidden">
 
   <!-- SITE-HEADER-HERO -->
     <div class="site-header-hero">
@@ -55,6 +55,32 @@
       </div>
     </div>
   <!-- SITE-HEADER-HERO -->
+
+  <!-- SITE-MAIN -->
+<main class="site-main">
+  <section class="products">
+    <div class="container-fluid p-0">
+      <div class="row g-0 align-items-center flex-sm-column-reverse flex-md-row">
+        <div class="col-12 col-lg-6">
+          <div class="card rounded-0 border-0">
+            <div class="card-body d-flex flex-column align-items-center text-sm-center">
+              <h5 class="card-title">Transform your <br> brand</h5>
+              <p class="card-text">We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+              <a href="#" class="btn products-btn">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <picture class="product-picture">  
+            <source media="(max-width: 576px)" srcset="./images/mobile/image-transform.jpg">
+            <img src="./images/desktop/image-transform.jpg" class="product-image w-100 ">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+  <!-- SITE-MAIN -->
 
   <!-- link bootstrap 5.3 script -->
    <script src="./libs/js/bootstrap.bundle.min.js"></script>

@@ -78,3 +78,54 @@ body {
     font-weight: 900;
     letter-spacing: 8.75px;
 }
+
+
+/* PRODUCTS */
+.card-body {
+    row-gap: 24px !important;
+}
+.card-title {
+    max-width: 445px !important;
+    width: 100%;
+    color: #24303E;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: -0.286px;
+  
+}
+
+.card-text {
+    color: #808397;
+    font-family: 'Barlow';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px; 
+    letter-spacing: -0.129px;
+    max-width: 445px;
+    width: 100%;
+}
+.products-btn {
+    color: #24303E;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: 1px;
+    position: relative;
+    text-align: left;
+}
+.products-btn::after {
+    content: "";
+    display: block;
+    width: 137px;
+    height: 8px;
+    border-radius: 28px;
+    background-color: #FAD400;
+    opacity: 0.25;
+    position: absolute;
+    left: 0;
+    bottom: 9px;
+}
+/* PRODUCTS */
