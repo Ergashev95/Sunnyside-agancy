@@ -42,14 +42,15 @@ body {
 }
 
 .nav-link__btn {
-    background-color: white;
-    border-radius: 28px;
+    background-color: white !important;
+    border-radius: 28px !important;
     font-size: 15px;
     font-weight: 700;
-    padding: 16px 32px;
-    color: #24303E;
+    padding: 16px 32px !important;
+    color: #24303E !important;
     font-family: "Fraunces 9pt Soft";
     transition: .5s;
+   
     
 }
 .nav-link__btn:hover {
@@ -227,5 +228,16 @@ body {
     column-gap: 30px;
 }
 /* FOOTER */
+
+/* NAVBAR BURGER */
+
+.navbar-toggler {
+    border: unset;
+}
+.navbar-toggler-icon {
+    color: white;
+}
+
+/* NAVBAR BURGER */
 
 
