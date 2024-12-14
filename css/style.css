@@ -200,4 +200,32 @@ body {
 
 /* CLIENTS */
 
+/* FOOTER */
+.site-footer   {
+    background-color: #90D4C6;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.footer-menu {
+    column-gap: 40px;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+.nav-link {
+    color: #458D7E;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.129px;
+    transition: .5s;
+}
+.nav-link:hover {
+    color: white;
+}
+.footer-social {
+    column-gap: 30px;
+}
+/* FOOTER */
+
 
