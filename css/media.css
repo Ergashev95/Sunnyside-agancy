@@ -7,4 +7,8 @@
     .site-hero {
         row-gap: 40px;
     }
+    .clients {
+        padding-top: 64px;
+        padding-bottom: 86px;
+    }
 }

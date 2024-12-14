@@ -146,3 +146,58 @@ body {
 
 }
 /* PRODUCTS */
+
+/* CLIENTS */
+.clients {
+    padding-top: 160px;
+    padding-bottom: 140px;
+}
+.client-ava {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+.clients-title {
+    font-family: "Fraunces 9pt Soft";
+    color: #A7AAAD;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.card {
+   align-items: center;
+   text-align: center;
+   row-gap: 65px;
+}
+.card-body{
+    padding: 0;
+}
+.card-text {
+    color: #5B636D;
+    font-family: "Barlow";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+
+}
+.client-name {
+    color: #24303E;
+    font-family: "Fraunces 9pt Soft";
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: -0.129px;
+}
+.client-job {
+    color: #A7AAAD;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px; /* 178.571% */
+    letter-spacing: -0.1px;
+
+}
+
+/* CLIENTS */
+
+
